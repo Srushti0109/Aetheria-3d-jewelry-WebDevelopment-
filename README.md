@@ -1,5 +1,6 @@
 AETHERIA — Luxury 3D Jewelry Experience
 
+https://aetheria-3d-jewelry-web-development.vercel.app/
 
 AETHERIA Haute Joaillerie is an immersive luxury jewelry showcase that blends premium design aesthetics with cutting-edge 3D web technology. Built as a modern digital retail experience, the project demonstrates how interactive visualization, cinematic animations, and refined user interfaces can elevate product presentation and customer engagement.
 Designed with a focus on elegance, performance, and usability, AETHERIA transforms traditional jewelry catalogs into an engaging, interactive experience where users can explore high-end pieces in a visually rich environment.
