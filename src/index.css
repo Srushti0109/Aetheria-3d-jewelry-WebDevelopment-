@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600&family=Space+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Immersive UI Luxury Styles */
+.glow-text {
+  text-shadow: 0 0 20px rgba(229, 195, 132, 0.45), 0 0 2px rgba(229, 195, 132, 0.2);
+}
+
+.glass {
+  background: rgba(10, 10, 12, 0.55);
+  backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.gold-grad {
+  background: linear-gradient(135deg, #f9f295 0%, #e5c384 25%, #b88a44 50%, #e5c384 75%, #f9f295 100%);
+}
+
+.diamond-shine {
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.8) 0%, rgba(200, 220, 255, 0.2) 50%, rgba(255, 255, 255, 0.8) 100%);
+}
+
+.caustic {
+  background: radial-gradient(circle at 50% 50%, rgba(229, 195, 132, 0.15) 0%, transparent 70%);
+}
+
+/* Custom Luxury Keyframe Animations & Utilities */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes reverse-spin-slow {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes scroll-dot {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    transform: translateY(12px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(12px);
+    opacity: 0;
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 40s linear infinite;
+}
+
+.animate-reverse-spin {
+  animation: reverse-spin-slow 28s linear infinite;
+}
+
+.animate-scroll-hint {
+  animation: scroll-dot 2.2s cubic-bezier(0.25, 1, 0.5, 1) infinite;
+}
+
+/* Custom Scrollbar styling for high-end luxury feel */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(229, 195, 132, 0.15);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(229, 195, 132, 0.45);
+}
+
+/* Smooth snapping containers */
+html {
+  scroll-behavior: smooth;
+  background-color: #050505;
+}
