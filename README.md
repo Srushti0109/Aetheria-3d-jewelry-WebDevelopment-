@@ -1,20 +1,9 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
-
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/d0ca9217-92f0-4029-bf20-cff5ab0910b8
-
-## Run Locally
-
-**Prerequisites:**  Node.js
+AETHERIA — Luxury 3D Jewelry Experience
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+AETHERIA Haute Joaillerie is an immersive luxury jewelry showcase that blends premium design aesthetics with cutting-edge 3D web technology. Built as a modern digital retail experience, the project demonstrates how interactive visualization, cinematic animations, and refined user interfaces can elevate product presentation and customer engagement.
+Designed with a focus on elegance, performance, and usability, AETHERIA transforms traditional jewelry catalogs into an engaging, interactive experience where users can explore high-end pieces in a visually rich environment.
+✨ Features Interactive 3D Product Visualization Real-time 3D rendering of luxury jewelry pieces. Smooth model rotation and inspection controls. Dynamic lighting and reflections for a premium viewing experience. Immersive product exploration through interactive camera movement. Luxury User Experience Elegant dark-themed interface inspired by high-end jewelry brands. Sophisticated typography and visual hierarchy. Cinematic animations and subtle motion effects. Carefully crafted user interactions focused on engagement. Product Showcase Structured presentation of jewelry collections. Detailed product information with pricing and descriptions. Featured luxury pieces displayed in an immersive environment. Visually compelling collection browsing experience. Custom Personalization Interactive customization interface. Personalized jewelry exploration workflow. Enhanced user engagement through tailored experiences. Responsive & Performance Optimized Fully responsive design across desktop, tablet, and mobile devices. Optimized rendering and asset loading. Smooth interactions and animations for a seamless experience. Modern web performance best practices. 🛠️ Tech Stack Frontend HTML5 CSS3 JavaScript (ES6+) React.js Next.js Styling & UI Tailwind CSS Custom UI Components Responsive Design Principles 3D Graphics & Animation Three.js WebGL Interactive 3D Rendering Dynamic Lighting & Visual Effects 🎯 Project Goals
+The objective of AETHERIA was to explore the intersection of luxury branding, interactive design, and modern web development. The project focuses on creating a digital experience that not only showcases products but also communicates exclusivity, craftsmanship, and sophistication through immersive technology.
+By combining premium visual design with advanced 3D rendering techniques, AETHERIA demonstrates how modern web applications can deliver engaging, memorable, and business-focused experiences for luxury retail brands.
+🚀 Highlights Luxury-inspired user interface and branding Interactive 3D jewelry visualization Responsive and performance-focused architecture Modern React and Next.js development practices Premium digital retail experience Portfolio project showcasing advanced frontend and 3D web development skills
